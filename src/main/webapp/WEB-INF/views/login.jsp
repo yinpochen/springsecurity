@@ -36,6 +36,11 @@
                     password
                     <input type="password" id="password" name="password" placeholder="Enter password" required>
                 </div>
+                <div >
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="rememberme" name="remember-me"> Remember Me</label>
+                    </div>
+                </div>
                 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
                 <div>
                     <input type="submit" value="log in">
